@@ -24,7 +24,7 @@ app.use(express.json());
 //   credentials: true
 // }));
 
-const allowedOrigins = ['https://e-commerce-frontend-henna-two.vercel.app/', 'https://e-commerce-admin-olive-two.vercel.app/orders'];
+const allowedOrigins = ['https://e-commerce-frontend-henna-two.vercel.app', 'https://e-commerce-admin-olive-two.vercel.app'];
 
 
 app.use(cors({
