@@ -18,12 +18,9 @@ connectCloudinary();
 app.use(express.json());
 //app.use(cors());
 app.use(cors({
-    origin: "https://e-commerce-admin-olive-two.vercel.app",
-    
-    // Allow this origin
-    // origin:"https://library-frontend-smoky.vercel.app/",
-    methods: "GET,POST,PATCH,DELETE",
-    credentials: true // Allow cookies and credentials
+  origin: 'https://e-commerce-admin-olive-two.vercel.app',
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+  credentials: true
 }));
 
 // api end point
