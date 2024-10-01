@@ -18,7 +18,7 @@ connectCloudinary();
 app.use(express.json());
 // app.use(cors());
 app.use(cors({
-  origin: 'https://e-commerce-frontend-henna-two.vercel.app/',
+  origin: '*',
   methods: ['GET','POST',  'DELETE'],
   
   credentials: true
