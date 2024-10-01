@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a.active hr{
+    display: inline;
+    background: rgb(194 65 12);
+}
+
+@media (max-width:640px){
+    a.active{
+        background-color: black;
+        color:white;
+    }
+}
