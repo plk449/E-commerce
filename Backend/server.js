@@ -18,7 +18,7 @@ connectCloudinary();
 app.use(express.json());
 //app.use(cors());
 app.use(cors({
-    origin: "https://e-commerce-admin-olive-two.vercel.app/",
+    origin: "*",
     
     // Allow this origin
     // origin:"https://library-frontend-smoky.vercel.app/",
