@@ -20,8 +20,10 @@ app.use(express.json());
 app.use(cors({
   origin: 'https://e-commerce-frontend-henna-two.vercel.app/',
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
-  // credentials: true
+  "preflightContinue": true,
+  credentials: true
 }));
+
 
 // api end point
 
