@@ -40,7 +40,7 @@ function Login({setToken}) {
               value={email}
               className="rounded-md w-full px-3 py-2 border border-gray-300 outline-none"
               type="email"
-              placeholder="Enter your email"
+              placeholder="Ex - admin@gmail.com"
               required
             />
           </div>
@@ -51,7 +51,7 @@ function Login({setToken}) {
               value={password}
               className="rounded-md w-full px-3 py-2 border border-gray-300 outline-none"
               type="password"
-              placeholder="Password"
+              placeholder="Ex - Admin@123"
               required
             />
           </div>
